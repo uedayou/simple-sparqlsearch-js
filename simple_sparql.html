@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>JavaScriptによるSPARQL利用サンプル</title>
+<link rel="stylesheet" href="//code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/bootstrap-modal-bs3patch.css" />
+<link rel="stylesheet" href="css/bootstrap-modal.css" />
+<link rel="stylesheet" href="css/app.css" />
+<script type="text/javascript">
+<!-- // 
+// 利用するSPARQLエンドポイントのURLを指定してください
+var endpoint = "http://db.lodosaka.jp/sparql";
+// -->
+</script>
+</head>
+<body>
+<div class="container">
+	<div class="row">
+		<div id="header">
+			<h2>JavaScriptによるSPARQL利用サンプル</h2>
+		</div>
+		<div id="right" class="right lodosakaquerymargin">
+			<textarea id="query_area" rows="10" style="width:100%;">select * {?s ?p ?o} LIMIT 100</textarea>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="lodosakamargin">
+			<input type="button" class="btn btn-primary" style="width:100%;" id="find_query" value="Load"/>
+		</div>
+	</div>
+	<!-- 結果ペイン -->
+	<div id="result_div" class="row lodosakamargin table_parent"></div>
+</div>
+</body>
+
+<script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="//code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//uedayou.net/SPARQLTimeliner/js_sparql/sparql.js"></script>
+<script src="js/bootstrap-modalmanager.js"></script>
+<script src="js/bootstrap-modal.js"></script>
+<script src="js/app.js" charset="UTF-8"></script>
+
+</html>
