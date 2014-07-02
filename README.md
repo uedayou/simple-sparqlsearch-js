@@ -6,7 +6,7 @@ JavaspcriptのみでSPARQLエンドポイントを検索して、検索結果を
 
 以下でアプリを試用出来ます。
 
-[http://uedayou.net/lodosaka/sample_sparql.html]
+<http://uedayou.net/simple-sparqlsearch-js/simple_sparql.html>
 
 ## 使い方
 
@@ -23,7 +23,7 @@ JavaspcriptのみでSPARQLエンドポイントを検索して、検索結果を
   // -->
   </script>
 
-本アプリは、CORS(Cross-Origin Resource Sharing)に対応しているSPARQLエンドポイントのみ利用可能です。
+SPARQLエンドポイントは、CORS(Cross-Origin Resource Sharing)に対応したもののみ利用できます。
 
 ## 利用ライブラリ
 
@@ -34,12 +34,11 @@ JavaspcriptのみでSPARQLエンドポイントを検索して、検索結果を
 
 ## ライセンス
 
-Copyright &copy; 2014 [Linked Open Dataハッカソン関西in大阪]<lodosaka@gmail.com>. Licensed under the [MIT license][mit].
+Copyright &copy; 2014 [Linked Open Dataハッカソン関西in大阪]. Licensed under the [MIT license][mit].
 
 [Linked Open Dataハッカソン関西in大阪]:http://lodosaka.hozo.jp/
 [Linked Open Dataハッカソン関西in大阪SPARQLエンドポイント]:http://db.lodosaka.jp/sparql
-[http://uedayou.net/lodosaka/sample_sparql.html]:http://uedayou.net/lodosaka/sample_sparql.html
-[SPARQL Timeliner]: http://uedayou.net/SPARQLTimeliner
+[SPARQL Timeliner]: http://uedayou.net/SPARQLTimeliner/
 [jQuery]:http://jquery.com/
 [Bootstrap3]:http://getbootstrap.com/
 [bootstrap-modal]:https://github.com/jschr/bootstrap-modal
