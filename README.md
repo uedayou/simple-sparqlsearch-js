@@ -13,7 +13,7 @@ JavaspcriptのみでSPARQLエンドポイントを検索して、検索結果を
 全てのファイルをWebサーバに置き、ブラウザで simple_sparql.html を開いてください。
 テキストフォームにSPARQLクエリを入力して、[Load]ボタンを押すと結果が表示されます。
 
-デフォルトでは、[Linked Open Dataハッカソン関西in大阪SPARQLエンドポイント]が指定されています。
+デフォルトでは、[DBpedia日本語版SPARQLエンドポイント](http://ja.dbpedia.org/sparql)が指定されています。
 他のエンドポイントを利用したい場合は、simple_sparql.html 内の endpoint 変数にそのURLを指定してください。
 
   <script type="text/javascript">
